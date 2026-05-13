@@ -1,0 +1,53 @@
+
+> ghostchannel@1.0.0 build
+> next build
+
+   ▲ Next.js 14.0.4
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully
+   Linting and checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/7) ...
+   Generating static pages (1/7) 
+TypeError: ia is not a function
+    at Object.get (C:\Users\rishi raj jain\OneDrive\Desktop\Project101\.next\server\app\gallery\page.js:1:115360)
+    at rB (C:\Users\rishi raj jain\OneDrive\Desktop\Project101\.next\server\app\gallery\page.js:1:116711)
+    at em (C:\Users\rishi raj jain\OneDrive\Desktop\Project101\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:128334)
+    at C:\Users\rishi raj jain\OneDrive\Desktop\Project101\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:140034
+    at Array.toJSON (C:\Users\rishi raj jain\OneDrive\Desktop\Project101\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:143612)
+    at stringify (<anonymous>)
+    at eE (C:\Users\rishi raj jain\OneDrive\Desktop\Project101\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:131997)
+    at eR (C:\Users\rishi raj jain\OneDrive\Desktop\Project101\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:132440)
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_context_frame:63:14)
+    at Timeout._onTimeout (C:\Users\rishi raj jain\OneDrive\Desktop\Project101\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:144064)
+TypeError: ia is not a function
+    at Object.get (C:\Users\rishi raj jain\OneDrive\Desktop\Project101\.next\server\app\gallery\page.js:1:115360)
+    at rB (C:\Users\rishi raj jain\OneDrive\Desktop\Project101\.next\server\app\gallery\page.js:1:116711)
+    at em (C:\Users\rishi raj jain\OneDrive\Desktop\Project101\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:128334)
+    at C:\Users\rishi raj jain\OneDrive\Desktop\Project101\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:140034
+    at Array.toJSON (C:\Users\rishi raj jain\OneDrive\Desktop\Project101\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:143612)
+    at stringify (<anonymous>)
+    at eE (C:\Users\rishi raj jain\OneDrive\Desktop\Project101\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:131997)
+    at eR (C:\Users\rishi raj jain\OneDrive\Desktop\Project101\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:132440)
+    at Timeout._onTimeout (C:\Users\rishi raj jain\OneDrive\Desktop\Project101\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:129220)
+    at listOnTimeout (node:internal/timers:605:17)
+   Generating static pages (3/7) 
+   Generating static pages (5/7) 
+
+Error occurred prerendering page "/gallery". Read more: https://nextjs.org/docs/messages/prerender-error
+TypeError: ia is not a function
+    at Object.get (C:\Users\rishi raj jain\OneDrive\Desktop\Project101\.next\server\app\gallery\page.js:1:115360)
+    at rB (C:\Users\rishi raj jain\OneDrive\Desktop\Project101\.next\server\app\gallery\page.js:1:116711)
+    at em (C:\Users\rishi raj jain\OneDrive\Desktop\Project101\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:128334)
+    at C:\Users\rishi raj jain\OneDrive\Desktop\Project101\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:140034
+    at Array.toJSON (C:\Users\rishi raj jain\OneDrive\Desktop\Project101\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:143612)
+    at stringify (<anonymous>)
+    at eE (C:\Users\rishi raj jain\OneDrive\Desktop\Project101\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:131997)
+    at eR (C:\Users\rishi raj jain\OneDrive\Desktop\Project101\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:132440)
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_context_frame:63:14)
+    at Timeout._onTimeout (C:\Users\rishi raj jain\OneDrive\Desktop\Project101\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:144064)
+ ✓ Generating static pages (7/7) 
+
+> Export encountered errors on following paths:
+	/gallery/page: /gallery
